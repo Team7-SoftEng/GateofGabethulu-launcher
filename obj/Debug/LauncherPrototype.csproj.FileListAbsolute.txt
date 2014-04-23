@@ -1,3 +1,0 @@
-C:\Users\hodgesmb\Documents\GitHub\GateofGabethulu-launcher\obj\Debug\LauncherPrototype.csprojResolveAssemblyReference.cache
-C:\Users\hodgesmb\Documents\GitHub\GateofGabethulu-launcher\obj\Debug\LauncherPrototype.Launcher.resources
-C:\Users\hodgesmb\Documents\GitHub\GateofGabethulu-launcher\obj\Debug\LauncherPrototype.csproj.GenerateResource.Cache
