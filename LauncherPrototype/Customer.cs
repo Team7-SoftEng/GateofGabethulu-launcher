@@ -40,7 +40,7 @@ namespace LauncherPrototype
 
         public void setFirstName(String fName)
         {
-
+            
             this.firstName = fName;
 
         }
@@ -80,12 +80,7 @@ namespace LauncherPrototype
 
         }
 
-        public void setPhone(String phone)
-        {
-
-            this.phoneNum = phone;
-
-        }
+        public void setPhone(String phone) { this.phoneNum = phone; }
 
         public bool setUserName(String uName)
         {
@@ -100,6 +95,20 @@ namespace LauncherPrototype
         {
 
             this.passwdHash = passwdDigest;
+
+        }
+
+        public void setAddress(BillingAddress inputAddress)
+        {
+
+            this.customerAddress = inputAddress;
+
+        }
+
+        public void setCustomerPlayer(Player inputPlayer)
+        {
+
+            this.customerPlayer = inputPlayer;
 
         }
 
