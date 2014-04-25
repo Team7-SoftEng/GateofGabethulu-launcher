@@ -28,17 +28,27 @@ namespace LauncherPrototype
             user = this.loginClient.getCustomer(uName);
             player = this.loginClient.getPlayer(uName);
             InitializeComponent();
-            this.usernameLbl.Text = user.getUserName();
+            this.usernameLbl.Text = user.getUserName().ToString();
             this.HealthLbl.Text = player.getVitality().ToString();
             this.SpeedLbl.Text = player.getSpeed().ToString();
             this.EXPLbl.Text = player.getExp().ToString();
             this.TotalPlayTimeLbl.Text = player.getPlaytime().ToString();
             this.ServerLbl.Text = player.getLastServer();
 
+
+
+            //STILL TRACING THE LACK OF USER NAME BACK TO ITS SOURCE
+            System.Diagnostics.Debug.WriteLine("Dashboard uName is: " + uName);
+
+
         }
 
         private void ChangePasswdBtn_Click(object sender, EventArgs e)
         {
+
+            //MORE AND MORE AND MORE TESTING
+            //STILL TRACING THE LACK OF USER NAME BACK TO ITS SOURCE
+            //System.Diagnostics.Debug.WriteLine("Dashboard UserName is: " + user.getUserName());
 
             ChangePasswdDialog changePass = new ChangePasswdDialog(user.getUserName());
             changePass.ShowDialog();

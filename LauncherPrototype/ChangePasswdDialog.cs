@@ -49,23 +49,43 @@ namespace LauncherPrototype
         private void ChangePasswdBtn_Click(object sender, EventArgs e)
         {
 
-            if (passwdPasses == true)
+            if (pwdClient.verifyCredentials(userName, pwdCrypto.generateSHA512PasswordHash(CurrentPasswdField.Text)))
             {
 
-                this.pwdClient.changePassword(userName, pwdCrypto.generateSHA512PasswordHash(ReenterNewPasswdField.Text));
-                MessageBox.Show("Your password has been successfully changed!", "Change Account Password", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                this.pwdClient.closeConnection();
-                this.Close();
 
-            }
 
-            else
+                if (passwdPasses == true)
+                {
+
+                    this.pwdClient.changePassword(userName, pwdCrypto.generateSHA512PasswordHash(ReenterNewPasswdField.Text));
+
+                    //TESTING FOR ERRORS
+                    //System.Diagnostics.Debug.WriteLine("" + pwdCrypto.generateSHA512PasswordHash(ReenterNewPasswdField.Text));
+                    System.Diagnostics.Debug.WriteLine("userName is: " + userName);
+
+                    MessageBox.Show("Your password has been successfully changed!", "Change Account Password", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    this.pwdClient.closeConnection();
+                    this.Close();
+
+                }
+
+                else
+                {
+
+                    MessageBox.Show("ERROR: There is a problem with your input.  Please check your password entered and try again.", "Change Account Password", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+
+                }
+
+
+
+            }else
             {
-
-                MessageBox.Show("ERROR: There is a problem with your input.  Please check your password entered and try again.", "Change Account Password", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-
+                 MessageBox.Show("ERROR:  INCORRECT CURRENT PASSWORD.", "Change Account Password", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+
+          
 
         }
 
@@ -78,7 +98,7 @@ namespace LauncherPrototype
 
         private void comparePasswords(String passwd1, String passwd2)
         {
-
+            //needs another Check to see if the entered current password is correct as well
             if ((String.Compare(passwd1, passwd2) == 0) && (String.Compare(passwd1, "") != 0) && (String.Compare(passwd2, "") != 0))
             {
 

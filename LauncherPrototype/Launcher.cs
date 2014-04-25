@@ -62,6 +62,13 @@ namespace LauncherPrototype
             {
 
                 login.closeConnection();
+
+                //STILL TRACING THE LACK OF USER NAME BACK TO ITS SOURCE  22222
+                //THIS SEEMS TO WORK
+                System.Diagnostics.Debug.WriteLine("Luncher usernameField.Text.ToSting() is: " + usernameField.Text.ToString());
+                System.Diagnostics.Debug.WriteLine("Luncher usernameField.Text is: " + usernameField.Text);
+
+
                 Dashboard mainWindow = new Dashboard(usernameField.Text.ToString());
                 this.Visible = false;
                 mainWindow.Show();

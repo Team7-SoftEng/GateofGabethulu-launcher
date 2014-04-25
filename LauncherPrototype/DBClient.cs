@@ -32,13 +32,15 @@ namespace LauncherPrototype
 
         private void Initialize() 
         {
+            //Use to be hodgesmb
+            //Now using  C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype
 
             this.connectionString = "HOST=" + mySQLServer + ";"
                              + "DATABASE=" + dbName + ";"
                              + "UID=" + uid + ";"
                              + "PASSWORD=" + passwd + ";" 
                              + "SSLMODE=Required;"
-                             + "CertificateFile=C:\\Users\\hodgesmb\\Documents\\Visual Studio 2012\\Projects\\LauncherPrototype\\LauncherPrototype\\client.pfx;" + "CertificatePassword=\'\';";
+                             + "CertificateFile=%HOMEPATH%\\Documents\\GitHub\\GateofGabethulu-launcher\\LauncherPrototype\\client.pfx;" + "CertificatePassword=\'\';";
 
             this.sqlConn = new MySqlConnection(connectionString);
             this.sqlComm = new MySqlCommand();
@@ -127,6 +129,10 @@ namespace LauncherPrototype
 
         public void changePassword(String uName, String cText)
         {
+
+            ///MORE TESTING
+             System.Diagnostics.Debug.WriteLine("uName is: "+ uName);
+             System.Diagnostics.Debug.WriteLine("cText is: " + cText);
 
             this.sqlComm.CommandText = "UPDATE Customer SET Passwd_Hash=\'" + cText + "\' WHERE Username=\'" + uName + "\';";
 
@@ -444,6 +450,7 @@ namespace LauncherPrototype
             customer.setFirstName(this.getCustomerFirstName(uName));
             customer.setMiddleName(this.getCustomerMiddleName(uName));
             customer.setLastName(this.getCustomerLastName(uName));
+            customer.setUserName(uName);
             customer.setSuffix(this.getCustomerSuffix(uName));
             customer.setGender(this.getCustomerGender(uName));
             customer.setEmailAddress(this.getCustomerEMailAddress(uName));
