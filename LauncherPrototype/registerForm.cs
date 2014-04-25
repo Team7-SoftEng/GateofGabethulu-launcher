@@ -44,22 +44,8 @@ namespace LauncherPrototype
         private void createBtn_Click(object sender, EventArgs e)
         {
 
-           /* Thread validationThread = new Thread(new ThreadStart(verifyAllRequiredFields));
-
-            try
-            {
-
-                validationThread.Start();
-
-            }
-
-            catch (ThreadStartException te)
-            {
-
-                MessageBox.Show("ERROR: Could not validate user input fields.  Please try again.", "Registration", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-
-            }*/
+            newCustomer.setAddress(newAddress);
+            this.verifyAllRequiredFields();
 
             if(validated == false)
             {
@@ -69,7 +55,7 @@ namespace LauncherPrototype
 
             }
 
-            if(regClient.insertNewCustomer(newCustomer, newAddress))
+            if(regClient.insertNewCustomer(newCustomer))
             {
 
                 MessageBox.Show("New User registration complete!", "Registration", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -303,66 +289,74 @@ namespace LauncherPrototype
 
         }
 
-       /* private void verifyAllRequiredFields()
+        private void verifyAllRequiredFields()
         {
 
-            if((this.newCustomer.getFirstName() == null) || (this.newCustomer.getFirstName() == ""))
+            if(this.newCustomer.getFirstName().Length == 0)
             {
 
                 validated = false;
 
             }
 
-            else if((this.newCustomer.getMiddleName() == null) || (this.newCustomer.getMiddleName() == ""))
+            else if(this.newCustomer.getMiddleName().Length == 0)
             {
 
                 validated = false;
 
             }
 
-            else if((this.newCustomer.getLastName() == null) || (this.newCustomer.getLastName() == ""))
+            else if(this.newCustomer.getLastName().Length == 0)
             {
 
                 validated = false;
 
             }
 
-            else if((this.newCustomer.getPhone() == null) || (this.newCustomer.getPhone() == ""))
+            else if(this.newCustomer.getPhone().Length == 0)
             {
 
                 validated = false;
 
             }
 
-            else if((this.newCustomer.getAddress().getAddressLine1() == null) || (this.newCustomer.getAddress.getAddressLine1() == ""))
+            else if(this.newCustomer.getEmailAddress() == null)
+
             {
 
                 validated = false;
 
             }
 
-            else if((this.newCustomer.getAddress().getAddressLine2() == null) || (this.newCustomer.getAddress().getAddressLine2() == ""))
+            else if(this.newAddress.getAddressLine1().Length == 0)
             {
 
                 validated = false;
 
             }
 
-            else if((this.newCustomer.getAddress().getCity() == null) || (this.newCustomer.getAddress().getCity() == ""))
+            else if(this.newAddress.getAddressLine2().Length == 0)
             {
 
                 validated = false;
 
             }
 
-            else if((this.newCustomer.getAddress().getCountry() == null) || (this.newCustomer.getAddress().getCountry() == ""))
+            else if(this.newAddress.getCity().Length == 0)
             {
 
                 validated = false;
 
             }
 
-            else if(this.newCustomer.getAddress().getZipCode() == 0)
+            else if(this.newAddress.getCountry().Length == 0)
+            {
+
+                validated = false;
+
+            }
+
+            else if(this.newAddress.getZipCode().ToString().Length < 5)
             {
 
                 validated = false;
@@ -376,7 +370,7 @@ namespace LauncherPrototype
 
             }
 
-        }*/
+        }
 
     }
 

@@ -243,7 +243,7 @@ namespace LauncherPrototype
 
         }
 
-        public bool insertNewCustomer(Customer newCustomer, BillingAddress newAddress)
+        public bool insertNewCustomer(Customer newCustomer)
         {
 
             bool customerSuccessful = false;
@@ -273,7 +273,7 @@ namespace LauncherPrototype
             if(customerSuccessful == true)
             {
 
-                insertNewAddress(newAddress, newCustomer.getEmailAddress());
+                insertNewAddress(newCustomer.getAddress(), newCustomer.getEmailAddress());
                 insertNewPlayer(newCustomer.getUserName());
                 insertNewCharacter(newCustomer.getUserName());
                 insertNewInventory(newCustomer.getUserName());
