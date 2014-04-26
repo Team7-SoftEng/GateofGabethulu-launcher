@@ -39,6 +39,7 @@ namespace LauncherPrototype
             this.ServerLbl.Text = player.getLastServer();
             this.WelcomeLbl.Text = String.Concat(this.WelcomeLbl.Text, user.getFullName() + '!');
 
+            System.Console.WriteLine("Vitality: " + player.getVitality());
         }
 
         private void ChangePasswdBtn_Click(object sender, EventArgs e)
@@ -92,7 +93,7 @@ namespace LauncherPrototype
         {
 
             Process gameProcess = new Process();
-            gameProcess.StartInfo.FileName = "C:\\Users\\hodgesmb\\My Documents\\GitHub\\GateofGabethulu-game\\Basic.exe";
+            gameProcess.StartInfo.FileName = "C:\\Users\\Tyler\\Documents\\GitHub\\GateofGabethulu-game\\BuildTest.exe";
             gameProcess.StartInfo.Arguments = "";
             this.Hide();
             gameProcess.Start();
