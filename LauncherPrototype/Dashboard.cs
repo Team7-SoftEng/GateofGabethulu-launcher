@@ -30,13 +30,14 @@ namespace LauncherPrototype
             user = this.loginClient.getCustomer(uName);
             player = this.loginClient.getPlayer(uName);
             InitializeComponent();
-            this.usernameLbl.Text = user.getUserName().ToString();
+            this.usernameLbl.Text = user.getUserName();
             this.HealthLbl.Text = player.getVitality().ToString();
             this.DefenseLbl.Text = player.getDefense().ToString();
             this.SpeedLbl.Text = player.getSpeed().ToString();
             this.EXPLbl.Text = player.getExp().ToString();
             this.TotalPlayTimeLbl.Text = player.getPlaytime().ToString();
-            this.ServerLbl.Text = player.getLastServer().ToString();
+            this.ServerLbl.Text = player.getLastServer();
+            this.WelcomeLbl.Text = String.Concat(this.WelcomeLbl.Text, user.getFullName() + '!');
 
         }
 

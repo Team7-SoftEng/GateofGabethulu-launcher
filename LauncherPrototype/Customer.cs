@@ -144,7 +144,14 @@ namespace LauncherPrototype
         {
 
             String fullName;
-            fullName = this.firstName + " " + this.middleName + " " + this.lastName + ", " + this.suffix;
+            fullName = this.firstName + " " + this.middleName + " " + this.lastName;
+
+            if (String.Compare(this.suffix, "") != 0)
+            {
+
+                fullName = String.Concat(fullName + ", ", this.suffix);
+
+            }
 
             return fullName;
 

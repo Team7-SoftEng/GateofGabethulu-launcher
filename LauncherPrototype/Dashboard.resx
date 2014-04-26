@@ -795,37 +795,37 @@
   <data name="&gt;&gt;ExitBtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="WelcomeLbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="WelcomeLbl.Font" type="System.Drawing.Font, System.Drawing">
     <value>Lucida Blackletter, 12pt, style=Underline</value>
   </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="WelcomeLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="WelcomeLbl.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 34</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 19</value>
+  <data name="WelcomeLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 19</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+  <data name="WelcomeLbl.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Welcome back!</value>
+  <data name="WelcomeLbl.Text" xml:space="preserve">
+    <value>Welcome back, </value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="&gt;&gt;WelcomeLbl.Name" xml:space="preserve">
+    <value>WelcomeLbl</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+  <data name="&gt;&gt;WelcomeLbl.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;WelcomeLbl.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;WelcomeLbl.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

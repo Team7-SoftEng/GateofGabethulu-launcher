@@ -52,7 +52,7 @@
             this.ChangePasswdBtn = new System.Windows.Forms.Button();
             this.DeleteAcctBtn = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.WelcomeLbl = new System.Windows.Forms.Label();
             this.PlayerStatsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LastLocationScreenShotLbl)).BeginInit();
             this.SuspendLayout();
@@ -225,18 +225,18 @@
             this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
-            // label1
+            // WelcomeLbl
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.WelcomeLbl, "WelcomeLbl");
+            this.WelcomeLbl.BackColor = System.Drawing.Color.Transparent;
+            this.WelcomeLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.WelcomeLbl.Name = "WelcomeLbl";
             // 
             // Dashboard
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.WelcomeLbl);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.DeleteAcctBtn);
             this.Controls.Add(this.ChangePasswdBtn);
@@ -282,6 +282,6 @@
         private System.Windows.Forms.Button ChangePasswdBtn;
         private System.Windows.Forms.Button DeleteAcctBtn;
         private System.Windows.Forms.Button ExitBtn;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label WelcomeLbl;
     }
 }
