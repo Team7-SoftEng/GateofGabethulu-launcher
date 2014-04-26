@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,7 @@ namespace LauncherPrototype
     {
 
         private DBClient loginClient;
+        private Process gameProcess;
         private Customer user;
         private Player player;
         private String Username;
@@ -33,22 +35,12 @@ namespace LauncherPrototype
             this.SpeedLbl.Text = player.getSpeed().ToString();
             this.EXPLbl.Text = player.getExp().ToString();
             this.TotalPlayTimeLbl.Text = player.getPlaytime().ToString();
-            this.ServerLbl.Text = player.getLastServer();
-
-
-
-            //STILL TRACING THE LACK OF USER NAME BACK TO ITS SOURCE
-            System.Diagnostics.Debug.WriteLine("Dashboard uName is: " + uName);
-
+            this.ServerLbl.Text = player.getLastServer().ToString();
 
         }
 
         private void ChangePasswdBtn_Click(object sender, EventArgs e)
         {
-
-            //MORE AND MORE AND MORE TESTING
-            //STILL TRACING THE LACK OF USER NAME BACK TO ITS SOURCE
-            //System.Diagnostics.Debug.WriteLine("Dashboard UserName is: " + user.getUserName());
 
             ChangePasswdDialog changePass = new ChangePasswdDialog(user.getUserName());
             changePass.ShowDialog();
@@ -92,10 +84,19 @@ namespace LauncherPrototype
 
             }
 
+        }
 
+        private void PlayGameBtn_Click(object sender, EventArgs e)
+        {
 
+            Process gameProcess = new Process();
+            gameProcess.StartInfo.FileName = "C:\\Users\\hodgesmb\\My Documents\\GitHub\\GateofGabethulu-game\\Basic.exe";
+            gameProcess.StartInfo.Arguments = "";
+            this.Hide();
+            gameProcess.Start();
 
         }
 
     }
+
 }

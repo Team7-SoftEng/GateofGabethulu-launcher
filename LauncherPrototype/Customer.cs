@@ -25,12 +25,12 @@ namespace LauncherPrototype
         public Customer()
         {
 
-            this.firstName = null;
-            this.middleName = null;
-            this.lastName = null;
-            this.suffix = null;
-            this.eMailAddr = null;
-            this.userName = null;
+            this.firstName = "";
+            this.middleName = "";
+            this.lastName = "";
+            this.suffix = "";
+            this.eMailAddr = "";
+            this.userName = "";
             this.gender = 'x';
             this.phoneNum = "-1";
             this.customerAddress = null;

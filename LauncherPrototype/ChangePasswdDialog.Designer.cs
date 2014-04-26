@@ -44,39 +44,39 @@
             // 
             this.ReenterPasswdLbl.AutoSize = true;
             this.ReenterPasswdLbl.BackColor = System.Drawing.Color.Transparent;
-            this.ReenterPasswdLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReenterPasswdLbl.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ReenterPasswdLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.ReenterPasswdLbl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ReenterPasswdLbl.Location = new System.Drawing.Point(34, 128);
             this.ReenterPasswdLbl.Name = "ReenterPasswdLbl";
-            this.ReenterPasswdLbl.Size = new System.Drawing.Size(219, 24);
-            this.ReenterPasswdLbl.TabIndex = 18;
+            this.ReenterPasswdLbl.Size = new System.Drawing.Size(261, 24);
+            this.ReenterPasswdLbl.TabIndex = 9;
             this.ReenterPasswdLbl.Text = "Re-enter New Password:";
             // 
             // CurrentPasswdLbl
             // 
             this.CurrentPasswdLbl.AutoSize = true;
             this.CurrentPasswdLbl.BackColor = System.Drawing.Color.Transparent;
-            this.CurrentPasswdLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CurrentPasswdLbl.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CurrentPasswdLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.CurrentPasswdLbl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.CurrentPasswdLbl.Location = new System.Drawing.Point(34, 29);
             this.CurrentPasswdLbl.Name = "CurrentPasswdLbl";
-            this.CurrentPasswdLbl.Size = new System.Drawing.Size(164, 24);
-            this.CurrentPasswdLbl.TabIndex = 19;
+            this.CurrentPasswdLbl.Size = new System.Drawing.Size(201, 24);
+            this.CurrentPasswdLbl.TabIndex = 7;
             this.CurrentPasswdLbl.Text = "Current Password:";
             // 
             // NewPasswdLbl
             // 
             this.NewPasswdLbl.AutoSize = true;
             this.NewPasswdLbl.BackColor = System.Drawing.Color.Transparent;
-            this.NewPasswdLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NewPasswdLbl.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NewPasswdLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.NewPasswdLbl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.NewPasswdLbl.Location = new System.Drawing.Point(34, 78);
             this.NewPasswdLbl.Name = "NewPasswdLbl";
-            this.NewPasswdLbl.Size = new System.Drawing.Size(141, 24);
-            this.NewPasswdLbl.TabIndex = 20;
+            this.NewPasswdLbl.Size = new System.Drawing.Size(168, 24);
+            this.NewPasswdLbl.TabIndex = 8;
             this.NewPasswdLbl.Text = "New Password:";
             // 
             // NewPasswdField
@@ -89,7 +89,7 @@
             this.NewPasswdField.Name = "NewPasswdField";
             this.NewPasswdField.PasswordChar = '*';
             this.NewPasswdField.Size = new System.Drawing.Size(279, 19);
-            this.NewPasswdField.TabIndex = 21;
+            this.NewPasswdField.TabIndex = 2;
             this.NewPasswdField.UseSystemPasswordChar = true;
             // 
             // ReenterNewPasswdField
@@ -102,7 +102,7 @@
             this.ReenterNewPasswdField.Name = "ReenterNewPasswdField";
             this.ReenterNewPasswdField.PasswordChar = '*';
             this.ReenterNewPasswdField.Size = new System.Drawing.Size(279, 19);
-            this.ReenterNewPasswdField.TabIndex = 22;
+            this.ReenterNewPasswdField.TabIndex = 3;
             this.ReenterNewPasswdField.UseSystemPasswordChar = true;
             this.ReenterNewPasswdField.TextChanged += new System.EventHandler(this.ReenterNewPasswdField_TextChanged);
             // 
@@ -116,19 +116,19 @@
             this.CurrentPasswdField.Name = "CurrentPasswdField";
             this.CurrentPasswdField.PasswordChar = '*';
             this.CurrentPasswdField.Size = new System.Drawing.Size(279, 19);
-            this.CurrentPasswdField.TabIndex = 23;
+            this.CurrentPasswdField.TabIndex = 1;
             this.CurrentPasswdField.UseSystemPasswordChar = true;
             // 
             // ChangePasswdBtn
             // 
             this.ChangePasswdBtn.BackColor = System.Drawing.Color.Transparent;
             this.ChangePasswdBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ChangePasswdBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChangePasswdBtn.Font = new System.Drawing.Font("Lucida Blackletter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChangePasswdBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ChangePasswdBtn.Location = new System.Drawing.Point(98, 259);
             this.ChangePasswdBtn.Name = "ChangePasswdBtn";
             this.ChangePasswdBtn.Size = new System.Drawing.Size(185, 86);
-            this.ChangePasswdBtn.TabIndex = 24;
+            this.ChangePasswdBtn.TabIndex = 4;
             this.ChangePasswdBtn.Text = "Change Password";
             this.ChangePasswdBtn.UseVisualStyleBackColor = false;
             this.ChangePasswdBtn.Click += new System.EventHandler(this.ChangePasswdBtn_Click);
@@ -137,12 +137,12 @@
             // 
             this.PasswdCancelBtn.BackColor = System.Drawing.Color.Transparent;
             this.PasswdCancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.PasswdCancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswdCancelBtn.Font = new System.Drawing.Font("Lucida Blackletter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswdCancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.PasswdCancelBtn.Location = new System.Drawing.Point(374, 259);
             this.PasswdCancelBtn.Name = "PasswdCancelBtn";
             this.PasswdCancelBtn.Size = new System.Drawing.Size(185, 86);
-            this.PasswdCancelBtn.TabIndex = 25;
+            this.PasswdCancelBtn.TabIndex = 5;
             this.PasswdCancelBtn.Text = "Cancel";
             this.PasswdCancelBtn.UseVisualStyleBackColor = false;
             this.PasswdCancelBtn.Click += new System.EventHandler(this.PasswdCancelBtn_Click);
@@ -157,7 +157,7 @@
             this.passwdValidationLbl.Location = new System.Drawing.Point(331, 170);
             this.passwdValidationLbl.Name = "passwdValidationLbl";
             this.passwdValidationLbl.Size = new System.Drawing.Size(281, 29);
-            this.passwdValidationLbl.TabIndex = 26;
+            this.passwdValidationLbl.TabIndex = 6;
             this.passwdValidationLbl.Text = "Passwords do not match!";
             this.passwdValidationLbl.Visible = false;
             // 

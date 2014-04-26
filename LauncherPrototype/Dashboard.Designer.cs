@@ -73,7 +73,7 @@
             // usernameLbl
             // 
             resources.ApplyResources(this.usernameLbl, "usernameLbl");
-            this.usernameLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.usernameLbl.ForeColor = System.Drawing.Color.Yellow;
             this.usernameLbl.Name = "usernameLbl";
             // 
             // HealthTitleLbl
@@ -85,7 +85,7 @@
             // HealthLbl
             // 
             resources.ApplyResources(this.HealthLbl, "HealthLbl");
-            this.HealthLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.HealthLbl.ForeColor = System.Drawing.Color.Yellow;
             this.HealthLbl.Name = "HealthLbl";
             // 
             // SpeedTitleLbl
@@ -97,7 +97,7 @@
             // SpeedLbl
             // 
             resources.ApplyResources(this.SpeedLbl, "SpeedLbl");
-            this.SpeedLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.SpeedLbl.ForeColor = System.Drawing.Color.Yellow;
             this.SpeedLbl.Name = "SpeedLbl";
             // 
             // VitalityTitleLbl
@@ -109,7 +109,7 @@
             // VitalityLbl
             // 
             resources.ApplyResources(this.VitalityLbl, "VitalityLbl");
-            this.VitalityLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.VitalityLbl.ForeColor = System.Drawing.Color.Yellow;
             this.VitalityLbl.Name = "VitalityLbl";
             // 
             // EXPTitleLbl
@@ -133,19 +133,19 @@
             // EXPLbl
             // 
             resources.ApplyResources(this.EXPLbl, "EXPLbl");
-            this.EXPLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.EXPLbl.ForeColor = System.Drawing.Color.Yellow;
             this.EXPLbl.Name = "EXPLbl";
             // 
             // TotalPlayTimeLbl
             // 
             resources.ApplyResources(this.TotalPlayTimeLbl, "TotalPlayTimeLbl");
-            this.TotalPlayTimeLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.TotalPlayTimeLbl.ForeColor = System.Drawing.Color.Yellow;
             this.TotalPlayTimeLbl.Name = "TotalPlayTimeLbl";
             // 
             // ServerLbl
             // 
             resources.ApplyResources(this.ServerLbl, "ServerLbl");
-            this.ServerLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.ServerLbl.ForeColor = System.Drawing.Color.Yellow;
             this.ServerLbl.Name = "ServerLbl";
             // 
             // PlayerStatsTitleLbl
@@ -198,6 +198,7 @@
             this.PlayGameBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.PlayGameBtn.Name = "PlayGameBtn";
             this.PlayGameBtn.UseVisualStyleBackColor = false;
+            this.PlayGameBtn.Click += new System.EventHandler(this.PlayGameBtn_Click);
             // 
             // ChangePasswdBtn
             // 
@@ -245,6 +246,7 @@
             this.Controls.Add(this.PlayerStatsPanel);
             this.Controls.Add(this.DashboardTitleLbl);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Dashboard";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Dashboard_FormClosed);
             this.PlayerStatsPanel.ResumeLayout(false);
