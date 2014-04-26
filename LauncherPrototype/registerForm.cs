@@ -258,6 +258,7 @@ namespace LauncherPrototype
             }
 
         }
+
         private void userNameField_TextChanged(object sender, EventArgs e)
         {
 

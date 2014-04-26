@@ -32,6 +32,7 @@ namespace LauncherPrototype
             InitializeComponent();
             this.usernameLbl.Text = user.getUserName().ToString();
             this.HealthLbl.Text = player.getVitality().ToString();
+            this.DefenseLbl.Text = player.getDefense().ToString();
             this.SpeedLbl.Text = player.getSpeed().ToString();
             this.EXPLbl.Text = player.getExp().ToString();
             this.TotalPlayTimeLbl.Text = player.getPlaytime().ToString();

@@ -36,8 +36,8 @@
             this.HealthLbl = new System.Windows.Forms.Label();
             this.SpeedTitleLbl = new System.Windows.Forms.Label();
             this.SpeedLbl = new System.Windows.Forms.Label();
-            this.VitalityTitleLbl = new System.Windows.Forms.Label();
-            this.VitalityLbl = new System.Windows.Forms.Label();
+            this.DefenseTitleLbl = new System.Windows.Forms.Label();
+            this.DefenseLbl = new System.Windows.Forms.Label();
             this.EXPTitleLbl = new System.Windows.Forms.Label();
             this.TotalPlayTimeTitleLbl = new System.Windows.Forms.Label();
             this.LastLoggedInTitleLbl = new System.Windows.Forms.Label();
@@ -100,17 +100,17 @@
             this.SpeedLbl.ForeColor = System.Drawing.Color.Yellow;
             this.SpeedLbl.Name = "SpeedLbl";
             // 
-            // VitalityTitleLbl
+            // DefenseTitleLbl
             // 
-            resources.ApplyResources(this.VitalityTitleLbl, "VitalityTitleLbl");
-            this.VitalityTitleLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.VitalityTitleLbl.Name = "VitalityTitleLbl";
+            resources.ApplyResources(this.DefenseTitleLbl, "DefenseTitleLbl");
+            this.DefenseTitleLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.DefenseTitleLbl.Name = "DefenseTitleLbl";
             // 
-            // VitalityLbl
+            // DefenseLbl
             // 
-            resources.ApplyResources(this.VitalityLbl, "VitalityLbl");
-            this.VitalityLbl.ForeColor = System.Drawing.Color.Yellow;
-            this.VitalityLbl.Name = "VitalityLbl";
+            resources.ApplyResources(this.DefenseLbl, "DefenseLbl");
+            this.DefenseLbl.ForeColor = System.Drawing.Color.Yellow;
+            this.DefenseLbl.Name = "DefenseLbl";
             // 
             // EXPTitleLbl
             // 
@@ -171,8 +171,8 @@
             this.PlayerStatsPanel.Controls.Add(this.TotalPlayTimeTitleLbl);
             this.PlayerStatsPanel.Controls.Add(this.SpeedLbl);
             this.PlayerStatsPanel.Controls.Add(this.EXPTitleLbl);
-            this.PlayerStatsPanel.Controls.Add(this.VitalityTitleLbl);
-            this.PlayerStatsPanel.Controls.Add(this.VitalityLbl);
+            this.PlayerStatsPanel.Controls.Add(this.DefenseTitleLbl);
+            this.PlayerStatsPanel.Controls.Add(this.DefenseLbl);
             resources.ApplyResources(this.PlayerStatsPanel, "PlayerStatsPanel");
             this.PlayerStatsPanel.Name = "PlayerStatsPanel";
             // 
@@ -266,8 +266,8 @@
         private System.Windows.Forms.Label HealthLbl;
         private System.Windows.Forms.Label SpeedTitleLbl;
         private System.Windows.Forms.Label SpeedLbl;
-        private System.Windows.Forms.Label VitalityTitleLbl;
-        private System.Windows.Forms.Label VitalityLbl;
+        private System.Windows.Forms.Label DefenseTitleLbl;
+        private System.Windows.Forms.Label DefenseLbl;
         private System.Windows.Forms.Label EXPTitleLbl;
         private System.Windows.Forms.Label TotalPlayTimeTitleLbl;
         private System.Windows.Forms.Label LastLoggedInTitleLbl;

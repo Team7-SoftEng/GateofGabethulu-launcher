@@ -329,64 +329,64 @@
   <data name="&gt;&gt;SpeedLbl.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="VitalityTitleLbl.AutoSize" type="System.Boolean, mscorlib">
+  <data name="DefenseTitleLbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="VitalityTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="DefenseTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 12pt, style=Italic</value>
   </data>
-  <data name="VitalityTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="DefenseTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
     <value>53, 138</value>
   </data>
-  <data name="VitalityTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 23</value>
+  <data name="DefenseTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 23</value>
   </data>
-  <data name="VitalityTitleLbl.TabIndex" type="System.Int32, mscorlib">
+  <data name="DefenseTitleLbl.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="VitalityTitleLbl.Text" xml:space="preserve">
-    <value>Vitality:</value>
+  <data name="DefenseTitleLbl.Text" xml:space="preserve">
+    <value>Defense:</value>
   </data>
-  <data name="&gt;&gt;VitalityTitleLbl.Name" xml:space="preserve">
-    <value>VitalityTitleLbl</value>
+  <data name="&gt;&gt;DefenseTitleLbl.Name" xml:space="preserve">
+    <value>DefenseTitleLbl</value>
   </data>
-  <data name="&gt;&gt;VitalityTitleLbl.Type" xml:space="preserve">
+  <data name="&gt;&gt;DefenseTitleLbl.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;VitalityTitleLbl.Parent" xml:space="preserve">
+  <data name="&gt;&gt;DefenseTitleLbl.Parent" xml:space="preserve">
     <value>PlayerStatsPanel</value>
   </data>
-  <data name="&gt;&gt;VitalityTitleLbl.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;DefenseTitleLbl.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="VitalityLbl.AutoSize" type="System.Boolean, mscorlib">
+  <data name="DefenseLbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="VitalityLbl.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="DefenseLbl.Font" type="System.Drawing.Font, System.Drawing">
     <value>Papyrus, 12pt, style=Italic</value>
   </data>
-  <data name="VitalityLbl.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="DefenseLbl.Location" type="System.Drawing.Point, System.Drawing">
     <value>205, 139</value>
   </data>
-  <data name="VitalityLbl.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="DefenseLbl.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 25</value>
   </data>
-  <data name="VitalityLbl.TabIndex" type="System.Int32, mscorlib">
+  <data name="DefenseLbl.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="VitalityLbl.Text" xml:space="preserve">
+  <data name="DefenseLbl.Text" xml:space="preserve">
     <value>NaN</value>
   </data>
-  <data name="&gt;&gt;VitalityLbl.Name" xml:space="preserve">
-    <value>VitalityLbl</value>
+  <data name="&gt;&gt;DefenseLbl.Name" xml:space="preserve">
+    <value>DefenseLbl</value>
   </data>
-  <data name="&gt;&gt;VitalityLbl.Type" xml:space="preserve">
+  <data name="&gt;&gt;DefenseLbl.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;VitalityLbl.Parent" xml:space="preserve">
+  <data name="&gt;&gt;DefenseLbl.Parent" xml:space="preserve">
     <value>PlayerStatsPanel</value>
   </data>
-  <data name="&gt;&gt;VitalityLbl.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;DefenseLbl.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
   <data name="EXPTitleLbl.AutoSize" type="System.Boolean, mscorlib">
@@ -709,7 +709,7 @@
     <value>Popup</value>
   </data>
   <data name="ChangePasswdBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lucida Blackletter, 12pt, style=Italic, Underline</value>
+    <value>Lucida Blackletter, 12pt, style=Underline</value>
   </data>
   <data name="ChangePasswdBtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>19, 375</value>
