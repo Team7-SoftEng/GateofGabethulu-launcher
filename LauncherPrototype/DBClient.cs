@@ -34,6 +34,7 @@ namespace LauncherPrototype
         {
             //Use to be hodgesmb
             //Now using  C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype
+            //Tyler was here
 
             this.connectionString = "HOST=" + mySQLServer + ";"
                              + "DATABASE=" + dbName + ";"
