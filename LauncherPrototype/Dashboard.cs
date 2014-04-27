@@ -19,6 +19,7 @@ namespace LauncherPrototype
         private Customer user;
         private Player player;
         private String Username;
+        private Int32 LauncherID;
 
         public Dashboard(String uName)
         {
@@ -92,9 +93,15 @@ namespace LauncherPrototype
         private void PlayGameBtn_Click(object sender, EventArgs e)
         {
 
+            LauncherID = Process.GetCurrentProcess().Id;
             Process gameProcess = new Process();
-            gameProcess.StartInfo.FileName = "C:\\Users\\Tyler\\Documents\\GitHub\\GateofGabethulu-game\\BuildTest.exe";
-            gameProcess.StartInfo.Arguments = "";
+            gameProcess.StartInfo.FileName = "..\\..\\..\\..\\GateofGabethulu-game\\BuildTest.exe";
+            gameProcess.StartInfo.Arguments = user.getUserName() + 
+                                              " " + player.getAttack() +
+                                              " " + player.getDefense() +
+                                              " " + player.getVitality() +
+                                              " " + player.getExp() +
+                                              " " + LauncherID;
             this.Hide();
             gameProcess.Start();
 

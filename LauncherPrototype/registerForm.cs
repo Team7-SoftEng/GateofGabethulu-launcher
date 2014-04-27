@@ -269,6 +269,15 @@ namespace LauncherPrototype
 
             }
 
+            else if (this.userNameField.Text.Contains(' ') == true)
+            {
+
+                availableNameLbl.Text = "Invalid username!";
+                availableNameLbl.ForeColor = Color.Red;
+                availableNameLbl.Visible = true;
+
+            }
+
             else if (regClient.isUserNameAvailable(this.userNameField.Text) == false)
             {
 

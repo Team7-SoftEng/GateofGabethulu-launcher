@@ -40,7 +40,7 @@ namespace LauncherPrototype
                              + "UID=" + uid + ";"
                              + "PASSWORD=" + passwd + ";" 
                              + "SSLMODE=Required;"
-                             + "CertificateFile=C:\\Users\\Tyler\\Documents\\GitHub\\GateofGabethulu-launcher\\LauncherPrototype\\client.pfx;" + "CertificatePassword=\'\';";
+                             + "CertificateFile=..\\..\\client.pfx;" + "CertificatePassword=\'\';";
 
             this.sqlConn = new MySqlConnection(connectionString);
             this.sqlComm = new MySqlCommand();
