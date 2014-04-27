@@ -202,7 +202,7 @@ namespace LauncherPrototype
         private void insertNewCharacter(String uName)
         {
 
-            inputString = "INSERT INTO CharacterStats(Username,Attack,Defense,Speed,Vitality,EXP) VALUES(\'" + uName + "\',1,1,1,1,0);";
+            inputString = "INSERT INTO CharacterStats(Username,Attack,Defense,Speed,Vitality,EXP) VALUES(\'" + uName + "\',1,1,1,20,0);";
             sqlComm.CommandText = inputString;
 
             try
@@ -559,9 +559,6 @@ namespace LauncherPrototype
 
         public void deleteAccount(String uName, String eMail)
         {
-
-            Console.WriteLine(uName + "\n");
-            Console.WriteLine(eMail + "\n");
 
             this.sqlComm.CommandText = "DELETE FROM Inventory WHERE Username=\'" + uName + "\';";
             this.sqlComm.ExecuteNonQuery();

@@ -46,15 +46,12 @@
             this.ServerLbl = new System.Windows.Forms.Label();
             this.PlayerStatsTitleLbl = new System.Windows.Forms.Label();
             this.PlayerStatsPanel = new System.Windows.Forms.Panel();
-            this.LastLocationScreenShotLbl = new System.Windows.Forms.PictureBox();
-            this.LastLocationPicLbl = new System.Windows.Forms.Label();
             this.PlayGameBtn = new System.Windows.Forms.Button();
             this.ChangePasswdBtn = new System.Windows.Forms.Button();
             this.DeleteAcctBtn = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
             this.WelcomeLbl = new System.Windows.Forms.Label();
             this.PlayerStatsPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.LastLocationScreenShotLbl)).BeginInit();
             this.SuspendLayout();
             // 
             // DashboardTitleLbl
@@ -176,21 +173,6 @@
             resources.ApplyResources(this.PlayerStatsPanel, "PlayerStatsPanel");
             this.PlayerStatsPanel.Name = "PlayerStatsPanel";
             // 
-            // LastLocationScreenShotLbl
-            // 
-            this.LastLocationScreenShotLbl.BackColor = System.Drawing.Color.Transparent;
-            this.LastLocationScreenShotLbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.LastLocationScreenShotLbl, "LastLocationScreenShotLbl");
-            this.LastLocationScreenShotLbl.Name = "LastLocationScreenShotLbl";
-            this.LastLocationScreenShotLbl.TabStop = false;
-            // 
-            // LastLocationPicLbl
-            // 
-            resources.ApplyResources(this.LastLocationPicLbl, "LastLocationPicLbl");
-            this.LastLocationPicLbl.BackColor = System.Drawing.Color.Transparent;
-            this.LastLocationPicLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.LastLocationPicLbl.Name = "LastLocationPicLbl";
-            // 
             // PlayGameBtn
             // 
             this.PlayGameBtn.BackColor = System.Drawing.Color.Gray;
@@ -241,8 +223,6 @@
             this.Controls.Add(this.DeleteAcctBtn);
             this.Controls.Add(this.ChangePasswdBtn);
             this.Controls.Add(this.PlayGameBtn);
-            this.Controls.Add(this.LastLocationPicLbl);
-            this.Controls.Add(this.LastLocationScreenShotLbl);
             this.Controls.Add(this.PlayerStatsPanel);
             this.Controls.Add(this.DashboardTitleLbl);
             this.DoubleBuffered = true;
@@ -251,7 +231,6 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Dashboard_FormClosed);
             this.PlayerStatsPanel.ResumeLayout(false);
             this.PlayerStatsPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.LastLocationScreenShotLbl)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -276,8 +255,6 @@
         private System.Windows.Forms.Label ServerLbl;
         private System.Windows.Forms.Label PlayerStatsTitleLbl;
         private System.Windows.Forms.Panel PlayerStatsPanel;
-        private System.Windows.Forms.PictureBox LastLocationScreenShotLbl;
-        private System.Windows.Forms.Label LastLocationPicLbl;
         private System.Windows.Forms.Button PlayGameBtn;
         private System.Windows.Forms.Button ChangePasswdBtn;
         private System.Windows.Forms.Button DeleteAcctBtn;

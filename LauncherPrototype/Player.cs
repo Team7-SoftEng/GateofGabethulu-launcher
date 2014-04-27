@@ -56,7 +56,7 @@ namespace LauncherPrototype
             this.attack = 1;
             this.defense = 1;
             this.speed = 1;
-            this.vitality = 10;
+            this.vitality = 20;
             this.exp = 0;
             this.gender = 'x';
             this.lastServerUsed = "//localhost";

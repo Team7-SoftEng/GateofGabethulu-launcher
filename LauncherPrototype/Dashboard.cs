@@ -40,7 +40,6 @@ namespace LauncherPrototype
             this.ServerLbl.Text = player.getLastServer();
             this.WelcomeLbl.Text = String.Concat(this.WelcomeLbl.Text, user.getFullName() + '!');
 
-            System.Console.WriteLine("Vitality: " + player.getVitality());
         }
 
         private void ChangePasswdBtn_Click(object sender, EventArgs e)
@@ -101,7 +100,7 @@ namespace LauncherPrototype
                                               " " + player.getDefense() +
                                               " " + player.getVitality() +
                                               " " + player.getExp() +
-                                              " " + LauncherID;
+                                              " " + LauncherID.ToString();
             this.Hide();
             gameProcess.Start();
 
