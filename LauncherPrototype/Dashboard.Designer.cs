@@ -51,7 +51,14 @@
             this.DeleteAcctBtn = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
             this.WelcomeLbl = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.PlayerStats2Lbl = new System.Windows.Forms.Label();
+            this.TotalKillsTitleLbl = new System.Windows.Forms.Label();
+            this.TotalKillLbl = new System.Windows.Forms.Label();
+            this.TotalDeathsTitleLbl = new System.Windows.Forms.Label();
+            this.TotalDeathsLbl = new System.Windows.Forms.Label();
             this.PlayerStatsPanel.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // DashboardTitleLbl
@@ -214,10 +221,54 @@
             this.WelcomeLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.WelcomeLbl.Name = "WelcomeLbl";
             // 
+            // panel1
+            // 
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.TotalKillsTitleLbl);
+            this.panel1.Controls.Add(this.TotalKillLbl);
+            this.panel1.Controls.Add(this.TotalDeathsTitleLbl);
+            this.panel1.Controls.Add(this.TotalDeathsLbl);
+            this.panel1.Controls.Add(this.PlayerStats2Lbl);
+            this.panel1.Name = "panel1";
+            // 
+            // PlayerStats2Lbl
+            // 
+            resources.ApplyResources(this.PlayerStats2Lbl, "PlayerStats2Lbl");
+            this.PlayerStats2Lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.PlayerStats2Lbl.Name = "PlayerStats2Lbl";
+            // 
+            // TotalKillsTitleLbl
+            // 
+            resources.ApplyResources(this.TotalKillsTitleLbl, "TotalKillsTitleLbl");
+            this.TotalKillsTitleLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.TotalKillsTitleLbl.Name = "TotalKillsTitleLbl";
+            // 
+            // TotalKillLbl
+            // 
+            resources.ApplyResources(this.TotalKillLbl, "TotalKillLbl");
+            this.TotalKillLbl.ForeColor = System.Drawing.Color.Yellow;
+            this.TotalKillLbl.Name = "TotalKillLbl";
+            // 
+            // TotalDeathsTitleLbl
+            // 
+            resources.ApplyResources(this.TotalDeathsTitleLbl, "TotalDeathsTitleLbl");
+            this.TotalDeathsTitleLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.TotalDeathsTitleLbl.Name = "TotalDeathsTitleLbl";
+            // 
+            // TotalDeathsLbl
+            // 
+            resources.ApplyResources(this.TotalDeathsLbl, "TotalDeathsLbl");
+            this.TotalDeathsLbl.ForeColor = System.Drawing.Color.Yellow;
+            this.TotalDeathsLbl.Name = "TotalDeathsLbl";
+            // 
             // Dashboard
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.WelcomeLbl);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.DeleteAcctBtn);
@@ -231,6 +282,8 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Dashboard_FormClosed);
             this.PlayerStatsPanel.ResumeLayout(false);
             this.PlayerStatsPanel.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -260,5 +313,11 @@
         private System.Windows.Forms.Button DeleteAcctBtn;
         private System.Windows.Forms.Button ExitBtn;
         private System.Windows.Forms.Label WelcomeLbl;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label TotalKillsTitleLbl;
+        private System.Windows.Forms.Label TotalKillLbl;
+        private System.Windows.Forms.Label TotalDeathsTitleLbl;
+        private System.Windows.Forms.Label TotalDeathsLbl;
+        private System.Windows.Forms.Label PlayerStats2Lbl;
     }
 }

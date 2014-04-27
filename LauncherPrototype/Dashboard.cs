@@ -38,6 +38,8 @@ namespace LauncherPrototype
             this.EXPLbl.Text = player.getExp().ToString();
             this.TotalPlayTimeLbl.Text = player.getPlaytime().ToString();
             this.ServerLbl.Text = player.getLastServer();
+            this.TotalKillLbl.Text = player.getTotalKills().ToString();
+            this.TotalDeathsLbl.Text = player.getTotalDeaths().ToString();
             this.WelcomeLbl.Text = String.Concat(this.WelcomeLbl.Text, user.getFullName() + '!');
 
         }

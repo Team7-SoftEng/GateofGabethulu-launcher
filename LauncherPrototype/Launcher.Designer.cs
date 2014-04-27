@@ -74,7 +74,7 @@
             // 
             this.usernameField.BackColor = System.Drawing.Color.Gray;
             this.usernameField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.usernameField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.usernameField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.usernameField.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameField.ForeColor = System.Drawing.Color.Black;
             this.usernameField.Location = new System.Drawing.Point(494, 183);
@@ -136,7 +136,7 @@
             // 
             this.passwdField.BackColor = System.Drawing.Color.Gray;
             this.passwdField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.passwdField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.passwdField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.passwdField.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwdField.ForeColor = System.Drawing.Color.Black;
             this.passwdField.Location = new System.Drawing.Point(494, 218);

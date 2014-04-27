@@ -309,7 +309,7 @@
             // 
             this.userNameField.BackColor = System.Drawing.Color.Gray;
             this.userNameField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.userNameField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.userNameField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.userNameField.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userNameField.ForeColor = System.Drawing.Color.Black;
             this.userNameField.Location = new System.Drawing.Point(223, 239);
@@ -322,7 +322,7 @@
             // 
             this.eMailAddressField.BackColor = System.Drawing.Color.Gray;
             this.eMailAddressField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.eMailAddressField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.eMailAddressField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.eMailAddressField.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eMailAddressField.ForeColor = System.Drawing.Color.Black;
             this.eMailAddressField.Location = new System.Drawing.Point(223, 208);
@@ -335,7 +335,7 @@
             // 
             this.suffixField.BackColor = System.Drawing.Color.Gray;
             this.suffixField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.suffixField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.suffixField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.suffixField.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.suffixField.ForeColor = System.Drawing.Color.Black;
             this.suffixField.Location = new System.Drawing.Point(223, 177);
@@ -348,7 +348,7 @@
             // 
             this.lastNameField.BackColor = System.Drawing.Color.Gray;
             this.lastNameField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lastNameField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.lastNameField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.lastNameField.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lastNameField.ForeColor = System.Drawing.Color.Black;
             this.lastNameField.Location = new System.Drawing.Point(223, 146);
@@ -361,7 +361,7 @@
             // 
             this.middleNameField.BackColor = System.Drawing.Color.Gray;
             this.middleNameField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.middleNameField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.middleNameField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.middleNameField.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.middleNameField.ForeColor = System.Drawing.Color.Black;
             this.middleNameField.Location = new System.Drawing.Point(223, 115);
@@ -374,7 +374,7 @@
             // 
             this.firstNameField.BackColor = System.Drawing.Color.Gray;
             this.firstNameField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.firstNameField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.firstNameField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.firstNameField.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.firstNameField.ForeColor = System.Drawing.Color.Black;
             this.firstNameField.Location = new System.Drawing.Point(223, 84);
@@ -387,7 +387,7 @@
             // 
             this.continentField.BackColor = System.Drawing.Color.Gray;
             this.continentField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.continentField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.continentField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.continentField.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.continentField.ForeColor = System.Drawing.Color.Black;
             this.continentField.Location = new System.Drawing.Point(904, 274);
@@ -400,7 +400,7 @@
             // 
             this.addressField.BackColor = System.Drawing.Color.Gray;
             this.addressField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.addressField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.addressField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.addressField.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addressField.ForeColor = System.Drawing.Color.Black;
             this.addressField.Location = new System.Drawing.Point(904, 88);
@@ -413,7 +413,7 @@
             // 
             this.streetField.BackColor = System.Drawing.Color.Gray;
             this.streetField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.streetField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.streetField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.streetField.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.streetField.ForeColor = System.Drawing.Color.Black;
             this.streetField.Location = new System.Drawing.Point(904, 119);
@@ -426,7 +426,7 @@
             // 
             this.cityField.BackColor = System.Drawing.Color.Gray;
             this.cityField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.cityField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.cityField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.cityField.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityField.ForeColor = System.Drawing.Color.Black;
             this.cityField.Location = new System.Drawing.Point(904, 150);
@@ -439,7 +439,7 @@
             // 
             this.stateField.BackColor = System.Drawing.Color.Gray;
             this.stateField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.stateField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.stateField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.stateField.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stateField.ForeColor = System.Drawing.Color.Black;
             this.stateField.Location = new System.Drawing.Point(904, 181);
@@ -452,7 +452,7 @@
             // 
             this.countyField.BackColor = System.Drawing.Color.Gray;
             this.countyField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.countyField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.countyField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.countyField.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.countyField.ForeColor = System.Drawing.Color.Black;
             this.countyField.Location = new System.Drawing.Point(904, 212);
@@ -465,7 +465,7 @@
             // 
             this.countryField.BackColor = System.Drawing.Color.Gray;
             this.countryField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.countryField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.countryField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.countryField.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.countryField.ForeColor = System.Drawing.Color.Black;
             this.countryField.Location = new System.Drawing.Point(904, 243);
@@ -506,7 +506,7 @@
             // sexSelect
             // 
             this.sexSelect.BackColor = System.Drawing.Color.Gray;
-            this.sexSelect.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.sexSelect.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.sexSelect.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.sexSelect.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sexSelect.ForeColor = System.Drawing.Color.Black;
@@ -525,7 +525,7 @@
             // 
             this.phoneField.BackColor = System.Drawing.Color.Gray;
             this.phoneField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.phoneField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.phoneField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.phoneField.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.phoneField.ForeColor = System.Drawing.Color.Black;
             this.phoneField.Location = new System.Drawing.Point(222, 448);
@@ -539,7 +539,7 @@
             // 
             this.zipCodeField.BackColor = System.Drawing.Color.Gray;
             this.zipCodeField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.zipCodeField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.zipCodeField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.zipCodeField.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zipCodeField.ForeColor = System.Drawing.Color.Black;
             this.zipCodeField.Location = new System.Drawing.Point(904, 305);
@@ -553,7 +553,7 @@
             // 
             this.passwdField.BackColor = System.Drawing.Color.Gray;
             this.passwdField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.passwdField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.passwdField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.passwdField.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwdField.ForeColor = System.Drawing.Color.Black;
             this.passwdField.Location = new System.Drawing.Point(223, 298);
@@ -567,7 +567,7 @@
             // 
             this.reenterPasswdField.BackColor = System.Drawing.Color.Gray;
             this.reenterPasswdField.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.reenterPasswdField.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.reenterPasswdField.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.reenterPasswdField.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reenterPasswdField.ForeColor = System.Drawing.Color.Black;
             this.reenterPasswdField.Location = new System.Drawing.Point(223, 329);

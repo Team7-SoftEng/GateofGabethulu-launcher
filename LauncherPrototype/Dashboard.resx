@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DashboardTitleLbl.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="UserNameTitleLbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -618,7 +618,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PlayerStatsPanel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="PlayGameBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
@@ -649,7 +649,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PlayGameBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="ChangePasswdBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -679,7 +679,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ChangePasswdBtn.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="DeleteAcctBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -709,7 +709,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DeleteAcctBtn.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="ExitBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -739,7 +739,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ExitBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="WelcomeLbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -772,6 +772,195 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;WelcomeLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="TotalKillsTitleLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TotalKillsTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 21.75pt, style=Italic</value>
+  </data>
+  <data name="TotalKillsTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TotalKillsTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 64</value>
+  </data>
+  <data name="TotalKillsTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 39</value>
+  </data>
+  <data name="TotalKillsTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="TotalKillsTitleLbl.Text" xml:space="preserve">
+    <value>Total Kills:</value>
+  </data>
+  <data name="&gt;&gt;TotalKillsTitleLbl.Name" xml:space="preserve">
+    <value>TotalKillsTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;TotalKillsTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalKillsTitleLbl.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;TotalKillsTitleLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TotalKillLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TotalKillLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Papyrus, 21.75pt, style=Italic</value>
+  </data>
+  <data name="TotalKillLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TotalKillLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 65</value>
+  </data>
+  <data name="TotalKillLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 46</value>
+  </data>
+  <data name="TotalKillLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="TotalKillLbl.Text" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="&gt;&gt;TotalKillLbl.Name" xml:space="preserve">
+    <value>TotalKillLbl</value>
+  </data>
+  <data name="&gt;&gt;TotalKillLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalKillLbl.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;TotalKillLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TotalDeathsTitleLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TotalDeathsTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 21.75pt, style=Italic</value>
+  </data>
+  <data name="TotalDeathsTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TotalDeathsTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 172</value>
+  </data>
+  <data name="TotalDeathsTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 39</value>
+  </data>
+  <data name="TotalDeathsTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="TotalDeathsTitleLbl.Text" xml:space="preserve">
+    <value>Total Deaths:</value>
+  </data>
+  <data name="&gt;&gt;TotalDeathsTitleLbl.Name" xml:space="preserve">
+    <value>TotalDeathsTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;TotalDeathsTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalDeathsTitleLbl.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;TotalDeathsTitleLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TotalDeathsLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TotalDeathsLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Papyrus, 21.75pt, style=Italic</value>
+  </data>
+  <data name="TotalDeathsLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TotalDeathsLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 174</value>
+  </data>
+  <data name="TotalDeathsLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 46</value>
+  </data>
+  <data name="TotalDeathsLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="TotalDeathsLbl.Text" xml:space="preserve">
+    <value>NaN</value>
+  </data>
+  <data name="&gt;&gt;TotalDeathsLbl.Name" xml:space="preserve">
+    <value>TotalDeathsLbl</value>
+  </data>
+  <data name="&gt;&gt;TotalDeathsLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalDeathsLbl.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;TotalDeathsLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PlayerStats2Lbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PlayerStats2Lbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 18pt, style=Italic, Underline</value>
+  </data>
+  <data name="PlayerStats2Lbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PlayerStats2Lbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 16</value>
+  </data>
+  <data name="PlayerStats2Lbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 32</value>
+  </data>
+  <data name="PlayerStats2Lbl.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="PlayerStats2Lbl.Text" xml:space="preserve">
+    <value>Death List:</value>
+  </data>
+  <data name="&gt;&gt;PlayerStats2Lbl.Name" xml:space="preserve">
+    <value>PlayerStats2Lbl</value>
+  </data>
+  <data name="&gt;&gt;PlayerStats2Lbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlayerStats2Lbl.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;PlayerStats2Lbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 64</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 254</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
