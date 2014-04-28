@@ -1,0 +1,15 @@
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\bin\Debug\LauncherPrototype.exe.config
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\bin\Debug\LauncherPrototype.exe
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\bin\Debug\LauncherPrototype.pdb
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\bin\Debug\de\LauncherPrototype.resources.dll
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\obj\Debug\LauncherPrototype.csprojResolveAssemblyReference.cache
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\obj\Debug\LauncherPrototype.ChangePasswdDialog.resources
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\obj\Debug\LauncherPrototype.Dashboard.resources
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\obj\Debug\LauncherPrototype.Launcher.resources
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\obj\Debug\LauncherPrototype.Properties.Resources.resources
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\obj\Debug\LauncherPrototype.registerForm.resources
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\obj\Debug\LauncherPrototype.Dashboard.de.resources
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\obj\Debug\LauncherPrototype.csproj.GenerateResource.Cache
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\obj\Debug\de\LauncherPrototype.resources.dll
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\obj\Debug\LauncherPrototype.exe
+C:\Users\Tyler\Documents\GitHub\GateofGabethulu-launcher\LauncherPrototype\obj\Debug\LauncherPrototype.pdb
