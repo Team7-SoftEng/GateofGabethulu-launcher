@@ -103,7 +103,7 @@ namespace LauncherPrototype
                                               " " + player.getVitality() +
                                               " " + player.getExp() +
                                               " " + LauncherID.ToString();
-            this.Hide();
+            this.WindowState = FormWindowState.Minimized;
             gameProcess.Start();
 
         }
